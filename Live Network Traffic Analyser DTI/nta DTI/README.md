@@ -176,6 +176,15 @@ Possible enhancements include:
 
 ---
 
+# Author
+
+Developed as a **Network Security and Traffic Analysis Project using Python**.
+
+---
+
+# License
+
+This project is open source and available under the **MIT License**.
 
 
 
