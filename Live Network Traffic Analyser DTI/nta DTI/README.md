@@ -164,8 +164,18 @@ Run packet capture using:
 ```
 sudo python packet_capture.py
 ```
+# Future Improvements
+
+Possible enhancements include:
+
+* Automatic **IP blocking using firewall rules**
+* Machine learning for **advanced anomaly detection**
+* Support for **multiple network interfaces**
+* Export reports in **PDF or JSON**
+* Advanced **network attack detection**
 
 ---
+
 
 
 
