@@ -136,6 +136,37 @@ This can help identify:
 * Abnormal traffic sources
 
 ---
+# Requirements
+
+Python **3.8+**
+
+Libraries used:
+
+* scapy
+* pandas
+* streamlit
+* matplotlib
+
+Install them using:
+
+```
+pip install scapy pandas streamlit matplotlib
+```
+
+---
+
+# Security Note
+
+Packet capturing requires **root/administrator privileges**.
+
+Run packet capture using:
+
+```
+sudo python packet_capture.py
+```
+
+---
+
 
 
 
