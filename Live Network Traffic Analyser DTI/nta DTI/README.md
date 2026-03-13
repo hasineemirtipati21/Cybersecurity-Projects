@@ -30,5 +30,17 @@ network-traffic-analyzer
 ```
 
 ---
+# Technologies Used
+
+* Python
+* Scapy
+* Pandas
+* Streamlit
+* Matplotlib
+* CSV Logging
+
+---
+
+
 
 
