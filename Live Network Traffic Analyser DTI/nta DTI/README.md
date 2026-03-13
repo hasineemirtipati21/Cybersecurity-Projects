@@ -40,6 +40,103 @@ network-traffic-analyzer
 * CSV Logging
 
 ---
+# Installation
+
+## 1. Clone the Repository
+
+```
+git clone https://github.com/yourusername/network-traffic-analyzer.git
+cd network-traffic-analyzer
+```
+
+## 2. Install Required Dependencies
+
+```
+pip install scapy pandas streamlit matplotlib
+```
+
+---
+
+# Usage
+
+## Step 1 — Start Packet Capture
+
+Run the packet capture script to start collecting network traffic.
+
+```
+sudo python packet_capture.py
+```
+
+Captured packets will be stored in:
+
+```
+traffic_data.csv
+```
+
+---
+
+## Step 2 — Analyze Traffic Data
+
+Run the analyzer script to detect suspicious activity and summarize traffic.
+
+```
+python analyzer.py
+```
+
+This will display:
+
+* Top source IP addresses
+* Protocol usage statistics
+* Suspicious traffic alerts
+
+---
+
+## Step 3 — Launch Live Monitoring Dashboard
+
+Start the Streamlit dashboard:
+
+```
+streamlit run dashboard.py
+```
+
+The dashboard will open automatically in your browser.
+
+---
+
+# Dashboard Features
+
+The dashboard provides:
+
+🟢 **Network Status Indicator**
+
+📈 **Live Traffic Graph**
+
+📊 **Protocol Distribution Pie Chart**
+
+🌐 **Top Source IP Table**
+
+🚨 **Suspicious Traffic Alerts**
+
+---
+
+# Suspicious Traffic Detection
+
+The analyzer flags IP addresses that generate an unusually high number of packets.
+
+Example alert:
+
+```
+⚠ ALERT: Suspicious traffic detected from 192.168.1.10 (75 packets)
+```
+
+This can help identify:
+
+* Potential **DDoS attacks**
+* Network flooding
+* Abnormal traffic sources
+
+---
+
 
 
 
