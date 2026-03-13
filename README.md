@@ -1,4 +1,4 @@
-##PROJECT 1:
+#PROJECT 1:
 # Python TCP Port Scanner
 
 A simple TCP port scanner built using Python.
