@@ -1,5 +1,5 @@
-#PROJECT 1:
-# Python TCP Port Scanner
+# PROJECT 1
+# port-scanner.py
 
 A simple TCP port scanner built using Python.
 
@@ -51,9 +51,9 @@ Unauthorized scanning may violate laws or network policies.
 - How multithreading improves scan speed
 - Risks of excessive concurrency
 
-##PROJECT 2:
+# PROJECT 2
 
-# 🔥 Simple Firewall Simulation (Python)
+# firewall-rule-simulator.py
 
 A basic Python project that simulates firewall rule checking by generating random IP addresses and determining whether they are **ALLOWED** or **BLOCKED** based on predefined firewall rules.
 
@@ -127,8 +127,10 @@ IP_ADD: 192.168.1.12, ACTION: BLOCK, SYSTEM_ID: 9271
 IP_ADD: 192.168.1.3, ACTION: ALLOW, SYSTEM_ID: 1844
 IP_ADD: 192.168.1.8, ACTION: BLOCK, SYSTEM_ID: 5521
 
-##Project 3:
-# 🚨 Real-Time Network Packet Rate Monitor & Auto IP Blocker (Python)
+# Project 3
+# packet-sentinal.py
+
+🚨 Real-Time Network Packet Rate Monitor & Auto IP Blocker (Python)
 
 A real-time network monitoring tool built with Python and Scapy that detects high packet rates from source IP addresses and automatically blocks suspicious IPs using iptables.
 
