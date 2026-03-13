@@ -17,5 +17,18 @@ This project demonstrates basic **network monitoring, traffic analysis, and anom
 * Graphical visualization of network traffic trends
 
 ---
+# Project Structure
+
+```
+network-traffic-analyzer
+│
+├── packet_capture.py      # Captures network packets using Scapy
+├── analyzer.py            # Analyzes captured traffic data
+├── dashboard.py           # Real-time monitoring dashboard
+├── traffic_data.csv       # Packet dataset (generated automatically)
+└── README.md
+```
+
+---
 
 
